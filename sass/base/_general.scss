@@ -1,0 +1,15 @@
+@use "../abstracts/" as *;
+@use "./font-face" as *;
+/*------------------GENERAL--------------------*/
+
+body {
+  font-family: "Work Sans";
+  background-color: var(--light-pink);
+  background-image: url("/assets/images/background-pattern-mobile.svg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @include mq(md) {
+    background-image: url("/assets/images/background-pattern-desktop.svg");
+  }
+}

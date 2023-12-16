@@ -1,0 +1,33 @@
+/*------------------RESET--------------------*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+}
+
+img,
+picture,
+svg,
+button {
+  display: block;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,15 @@
+@use "../abstracts/" as *;
+.heading-1 {
+  @include heading($size-9, uppercase);
+  letter-spacing: -1px;
+  span {
+    text-transform: capitalize;
+  }
+}
+.heading-2 {
+  @include heading($size-4, none);
+  transition: 0.5s;
+  &:hover {
+    color: hsl(280.92deg 82.98% 53.92%);
+  }
+}

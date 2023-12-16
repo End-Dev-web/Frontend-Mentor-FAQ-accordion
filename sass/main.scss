@@ -1,0 +1,42 @@
+@use "./base";
+@use "./components";
+@use "./layout";
+@use "./utilities";
+
+.base-flex > img {
+  max-width: 25px;
+}
+
+.buttons button img {
+  max-width: 30px;
+}
+.buttons button img:last-child {
+  display: none;
+}
+
+.active .buttons button img:last-child {
+  display: block;
+}
+.active .buttons button img:first-child {
+  display: none;
+}
+
+p {
+  color: var(--grayish-purple);
+  font-size: 0.95rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.answear {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 500ms;
+}
+
+.answear > div {
+  overflow: hidden;
+}
+.active .answear {
+  grid-template-rows: 1fr;
+}
