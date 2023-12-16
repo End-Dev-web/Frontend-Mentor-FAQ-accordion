@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Work Sans";
-  src: url("/assets/fonts/static/WorkSans-Bold.woff2") format("woff2");
+  src: url("../assets/fonts/static/WorkSans-Bold.woff2") format("woff2");
   font-weight: 700;
   font-display: swap;
 }
 @font-face {
   font-family: "Work Sans";
-  src: url("/assets/fonts/static/WorkSans-SemiBold.woff2") format("woff2");
+  src: url("../assets/fonts/static/WorkSans-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-display: swap;
 }
 @font-face {
   font-family: "Work Sans";
-  src: url("/assets/fonts/static/WorkSans-Regular.woff2") format("woff2");
+  src: url("../assets/fonts/static/WorkSans-Regular.woff2") format("woff2");
   font-weight: 400;
   font-display: swap;
 }
@@ -73,14 +73,14 @@ a {
 body {
   font-family: "Work Sans";
   background-color: var(--light-pink);
-  background-image: url("/assets/images/background-pattern-mobile.svg");
+  background-image: url("../assets/images/background-pattern-mobile.svg");
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
 }
 @media screen and (min-width: 768px) {
   body {
-    background-image: url("/assets/images/background-pattern-desktop.svg");
+    background-image: url("../assets/images/background-pattern-desktop.svg");
   }
 }
 
@@ -398,4 +398,4 @@ p {
 
 .active .answear {
   grid-template-rows: 1fr;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
